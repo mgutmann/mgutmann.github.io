@@ -1,0 +1,46 @@
+baseURL = "http://mgutmann.github.io/"
+languageCode = "en-us"
+title = "Michel Gutmann"
+theme = "researcher"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap", "robotsTXT"]
+enableEmoji = true
+math = true  # enable KaTeX (https://katex.org/) globally
+
+[params]
+  author = "Michel Gutmann"
+  description = "Michel Gutmann's personal site"
+  favicon = "favicon.ico"  # path to a .ico to use as favicon
+  [params.footer]
+    text = "researcher for hugo"
+    url = "https://github.com/ojroques/hugo-researcher"
+  [params.style]  # appearance options (can be omitted)
+    fontFamily = "Inconsolata"
+    pageWidth = "750px"
+    avatarSize = "90px"
+    colorBlack = "#222222"
+    colorRed = "#dc3545"
+
+
+[permalinks]
+  "/" = "/:filename"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "CV"
+    url = "/cv.pdf"
+    weight = 2
+  [[menu.main]]
+    name = "RA Work"
+    url = "/ra_work"
+    weight = 3
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects"
+    weight = 4
+
+[markup.goldmark.renderer]
+  unsafe = true  # allow raw HTML in markdown files
