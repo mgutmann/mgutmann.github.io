@@ -15,7 +15,7 @@ relevant entities in unstructured text and links them to a unique value in a kno
 The pipeline I built, implemented in spaCy, relies on direct string matching and a Named Entity 
 Recognition model for mention detection (identifying relevant words). It then uses multiple linking
 components to effectively do the candidate generation and disambiguation steps. In particular, there 
-is no large training dataset for our target knowledge base, so I make use Wikidata external 
+is no large training dataset for our target knowledge base, so I make use of Wikidata external 
 identifiers to avoid the (costly) creation of custom data.
 
 Since the pipeline is implemented as a spaCy project, it is installable through pip.
