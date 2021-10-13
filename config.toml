@@ -5,6 +5,7 @@ theme = "researcher"
 disableKinds = ["taxonomy", "term", "RSS", "sitemap", "robotsTXT"]
 enableEmoji = true
 math = true  # enable KaTeX (https://katex.org/) globally
+googleAnalytics = "G-D7QM0HVFYY"
 
 [params]
   author = "Michel Gutmann"
