@@ -10,7 +10,7 @@ title = "About"
 I am currently a senior at Columbia University, majoring in
 Economics - Mathematics as part of the Columbia - Sciences Po
 dual BA program. In Paris, besides Sciences Po, I also studied
-mathematics at Sorbonne Université (formerly Univerité Pierre et Marie Curie).
+mathematics at Sorbonne Université (formerly Université Pierre et Marie Curie).
 
 I am very interested in economic research, particularly in industrial organization, spatial economics,
 economic history and political economy. I am also very interested in the applications of Natural Language 
