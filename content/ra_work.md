@@ -7,8 +7,7 @@ title = "RA Work"
 
 
 I have worked with Professors Thomas Chaney (University of Southern California), Johannes Boehm (Sciences Po) and Danial Lashkari (Boston College)
-on their very long run growth project over the summer of 2021 and have been occasionally 
-voluntarily contributing to the project since. In this role, I designed and built a end-to-end Entity
+on their very long run growth project over the summer of 2021. In this role, I designed and built a end-to-end Entity
 Linking pipeline (i.e. a Natural Language Processing pipeline which identifies
 relevant entities in unstructured text and links them to a unique value in a knowledge base).
 
